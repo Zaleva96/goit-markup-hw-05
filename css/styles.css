@@ -690,38 +690,49 @@ img {
 .div-checkbox {
   margin-bottom: 24px;
 }
-
-.input-checkbox {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.checkbox-label-chek {
+.pp-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
-.checkbox-span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.box {
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   fill: transparent;
 }
 
-.input-checkbox:checked + .checkbox-label-chek .checkbox-span {
+.visually-hidden:checked + .pp-label .box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
-.link-ckeked {
-  color: #4d5ae5;
+.pp-link {
+  line-height: 1.33;
+  text-decoration: underline;
+  color: #f4f4fd;
 }
 
 .bth-cheket {
