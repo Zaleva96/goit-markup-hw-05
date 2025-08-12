@@ -575,3 +575,35 @@ img {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) skale(1.5);
 }
+
+.review-popup-close-bth {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-popup-close-bth:hover,
+.review-popup-close-bth:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.review-popup-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-popup-icon:hover,
+.review-popup-icon:focus {
+  fill: #ffffff;
+}
