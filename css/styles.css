@@ -603,7 +603,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.review-popup-icon:hover,
-.review-popup-icon:focus {
+.review-popup-close-bth:hover .review-popup-icon,
+.review-popup-close-bth:focus .review-popup-icon {
   fill: #ffffff;
 }
