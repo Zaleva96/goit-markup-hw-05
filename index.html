@@ -516,16 +516,21 @@
               </svg>
             </div>
           </div>
-          <div class="review-popup-wraper">
-            <label class="label-popup-wraper" for="Comment">Comment</label>
+          <div class="review-popup-wraper div-textarea">
+            <label class="label-popup-wraper" for="user-comment">Comment</label>
             <textarea
               class="textarea-popup"
               name="user-comment"
               id="user-comment"
               placeholder="Text input"></textarea>
           </div>
-          <div class="review-popup-wraper">
-            <input type="checkbox" />
+          <div class="review-popup-wraper div-checkbox">
+            <input
+              class="input-checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy" />
             <label for=""
               >I accept the terms and conditions of the
               <a href="">Privacy Policy</a></label

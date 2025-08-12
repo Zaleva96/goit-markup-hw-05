@@ -683,3 +683,13 @@ img {
 .textarea-popup:focus {
   border-color: #4d5ae5;
 }
+
+.div-textarea {
+  margin-bottom: 16px;
+}
+.div-checkbox {
+  margin-bottom: 24px;
+}
+
+.input-checkbox {
+}
